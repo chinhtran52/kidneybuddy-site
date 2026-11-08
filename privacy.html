@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="vi">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KidneyBuddy – Chính sách quyền riêng tư / Privacy Policy</title>
+<title>KidneyBuddy – Privacy Policy</title>
 <style>
   body { font: 16px/1.6 -apple-system, system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; color: #222; }
   h1 { font-size: 1.6rem; } h2 { font-size: 1.2rem; margin-top: 2rem; }
@@ -12,78 +12,134 @@
 </style>
 </head>
 <body>
-<nav><a href="#vi">Tiếng Việt</a><a href="#en">English</a><a href="#fr">Français</a></nav>
-
-<section id="vi">
-<h1>Chính sách quyền riêng tư – KidneyBuddy</h1>
-<p>Cập nhật: 25/10/2026</p>
-<h2>Dữ liệu chúng tôi lưu</h2>
-<ul>
-  <li><b>Tài khoản:</b> email và mật khẩu (đã mã hoá), dùng để đăng nhập và đồng bộ.</li>
-  <li><b>Dữ liệu sức khoẻ bạn nhập:</b> lượng nước, huyết áp, nhịp tim, giấc ngủ, đơn thuốc, kết quả xét nghiệm. Dữ liệu được lưu trên thiết bị và đồng bộ lên máy chủ để dùng trên nhiều thiết bị.</li>
-  <li><b>Ảnh đơn thuốc / phiếu xét nghiệm:</b> chỉ khi bạn chọn quét bằng AI.</li>
-</ul>
-<h2>Bên thứ ba xử lý dữ liệu</h2>
-<ul>
-  <li><b>Appwrite Cloud</b> (máy chủ tại Frankfurt, Đức): lưu tài khoản, dữ liệu đồng bộ và ảnh đã tải lên.</li>
-  <li><b>Google Gemini API</b>: nhận ảnh bạn quét để trích xuất thông tin thuốc hoặc chỉ số xét nghiệm. Ứng dụng hỏi ý kiến bạn trước lần tải ảnh đầu tiên.</li>
-</ul>
-<p>Chúng tôi không bán dữ liệu, không hiển thị quảng cáo và không theo dõi bạn qua các ứng dụng hay trang web khác.</p>
-<h2>Lưu giữ và xoá</h2>
-<p>Dữ liệu được giữ cho tới khi bạn xoá. Bạn có thể xoá tài khoản ngay trong ứng dụng (Cài đặt → Tài khoản → Xoá tài khoản). Thao tác này xoá vĩnh viễn tài khoản, toàn bộ dữ liệu đồng bộ và ảnh đã tải lên máy chủ, đồng thời xoá dữ liệu trên thiết bị.</p>
-<h2>Lưu ý y tế</h2>
-<p>KidneyBuddy không thay thế tư vấn y tế. Kết quả do AI trích xuất có thể sai; luôn kiểm tra với bác sĩ của bạn.</p>
-<h2>Liên hệ</h2>
-<p><a href="mailto:chinhtran52@icloud.com">chinhtran52@icloud.com</a></p>
-</section>
-
-<hr>
+<nav><a href="#en">English</a><a href="#vi">Tiếng Việt</a><a href="#fr">Français</a><a href="#zh">简体中文</a><a href="#es">Español</a></nav>
 
 <section id="en">
 <h1>Privacy Policy – KidneyBuddy</h1>
-<p>Updated: October 25, 2026</p>
+<p>Updated: November 8, 2026</p>
 <h2>Data we store</h2>
 <ul>
-  <li><b>Account:</b> email and password (hashed), used for sign-in and sync.</li>
+  <li><b>Account:</b> your email and your Sign in with Apple or Google sign-in, used for sign-in and sync. KidneyBuddy has no passwords. With Sign in with Apple you can hide your real email.</li>
   <li><b>Health data you enter:</b> water intake, blood pressure, heart rate, sleep, prescriptions, lab results. Stored on your device and synced to our server so you can use several devices.</li>
-  <li><b>Photos of prescriptions / lab reports:</b> only when you choose to scan with AI.</li>
+  <li><b>Photos of prescriptions / lab reports:</b> only when you choose to scan with AI; they are sent to the AI service to be read and are not stored.</li>
 </ul>
 <h2>Third parties that process data</h2>
 <ul>
-  <li><b>Appwrite Cloud</b> (servers in Frankfurt, Germany): stores your account, synced data and uploaded photos.</li>
-  <li><b>Google Gemini API</b>: receives the photos you scan to extract medication or lab values. The app asks for your consent before the first upload.</li>
+  <li><b>Google Firebase</b> (Authentication and Cloud Firestore, servers in Montréal, Canada): stores your account and synced data.</li>
+  <li><b>Google Gemini via Google Cloud</b> (through Firebase AI Logic): receives the photos you scan to extract medication or lab values. KidneyBuddy does not keep these photos. Under Google Cloud's terms, Google processes them only to return the result and does not use them to train its AI models. The app asks for your consent before the first scan.</li>
 </ul>
+<h2>Security and AI training</h2>
+<p>Your data is encrypted in transit and at rest, and only your signed-in account can access your synced data. Neither we nor our providers use your data — health records or scanned photos — to train AI models, for us or for anyone else.</p>
 <p>We do not sell data, show ads, or track you across other apps or websites.</p>
 <h2>Retention and deletion</h2>
-<p>Data is kept until you delete it. You can delete your account in the app (Settings → Account → Delete account). This permanently removes your account, all synced data and uploaded photos from our server, and clears the data on your device.</p>
+<p>Data is kept until you delete it. You can delete your account in the app (Settings → Account → Delete account). This permanently removes your account and all synced data from our server, and clears the data on your device.</p>
 <h2>Medical disclaimer</h2>
 <p>KidneyBuddy is not a substitute for medical advice. AI-extracted results can be wrong; always check them with your doctor.</p>
 <h2>Contact</h2>
 <p><a href="mailto:chinhtran52@icloud.com">chinhtran52@icloud.com</a></p>
 </section>
+<hr>
 
+<section id="vi">
+<h1>Chính sách quyền riêng tư – KidneyBuddy</h1>
+<p>Cập nhật: 08/11/2026</p>
+<h2>Dữ liệu chúng tôi lưu</h2>
+<ul>
+  <li><b>Tài khoản:</b> email và thông tin đăng nhập bằng Apple hoặc Google, dùng để đăng nhập và đồng bộ. KidneyBuddy không dùng mật khẩu. Khi đăng nhập bằng Apple, bạn có thể ẩn email thật.</li>
+  <li><b>Dữ liệu sức khoẻ bạn nhập:</b> lượng nước, huyết áp, nhịp tim, giấc ngủ, đơn thuốc, kết quả xét nghiệm. Dữ liệu được lưu trên thiết bị và đồng bộ lên máy chủ để dùng trên nhiều thiết bị.</li>
+  <li><b>Ảnh đơn thuốc / phiếu xét nghiệm:</b> chỉ khi bạn chọn quét bằng AI; ảnh chỉ được gửi tới dịch vụ AI để đọc, không được lưu.</li>
+</ul>
+<h2>Bên thứ ba xử lý dữ liệu</h2>
+<ul>
+  <li><b>Google Firebase</b> (Authentication và Cloud Firestore, máy chủ tại Montréal, Canada): lưu tài khoản và dữ liệu đồng bộ.</li>
+  <li><b>Google Gemini qua Google Cloud</b> (thông qua Firebase AI Logic): nhận ảnh bạn quét để trích xuất thông tin thuốc hoặc chỉ số xét nghiệm. KidneyBuddy không lưu ảnh này. Theo điều khoản của Google Cloud, Google chỉ xử lý ảnh để trả kết quả và không dùng ảnh để huấn luyện mô hình AI của họ. Ứng dụng hỏi ý kiến bạn trước lần quét đầu tiên.</li>
+</ul>
+<h2>Bảo mật và huấn luyện AI</h2>
+<p>Dữ liệu của bạn được mã hoá khi truyền và khi lưu trữ, và chỉ tài khoản bạn đã đăng nhập mới truy cập được dữ liệu đồng bộ của bạn. Cả chúng tôi lẫn các nhà cung cấp đều không dùng dữ liệu của bạn — hồ sơ sức khoẻ hay ảnh đã quét — để huấn luyện mô hình AI, cho chúng tôi hay cho bất kỳ bên nào khác.</p>
+<p>Chúng tôi không bán dữ liệu, không hiển thị quảng cáo và không theo dõi bạn qua các ứng dụng hay trang web khác.</p>
+<h2>Lưu giữ và xoá</h2>
+<p>Dữ liệu được giữ cho tới khi bạn xoá. Bạn có thể xoá tài khoản ngay trong ứng dụng (Cài đặt → Tài khoản → Xoá tài khoản). Thao tác này xoá vĩnh viễn tài khoản và toàn bộ dữ liệu đồng bộ trên máy chủ, đồng thời xoá dữ liệu trên thiết bị.</p>
+<h2>Lưu ý y tế</h2>
+<p>KidneyBuddy không thay thế tư vấn y tế. Kết quả do AI trích xuất có thể sai; luôn kiểm tra với bác sĩ của bạn.</p>
+<h2>Liên hệ</h2>
+<p><a href="mailto:chinhtran52@icloud.com">chinhtran52@icloud.com</a></p>
+</section>
 <hr>
 
 <section id="fr">
 <h1>Politique de confidentialité – KidneyBuddy</h1>
-<p>Mise à jour : 25 octobre 2026</p>
+<p>Mise à jour : 8 novembre 2026</p>
 <h2>Données conservées</h2>
 <ul>
-  <li><b>Compte :</b> e-mail et mot de passe (haché), pour la connexion et la synchronisation.</li>
+  <li><b>Compte :</b> e-mail et connexion avec Apple ou Google, pour la connexion et la synchronisation. KidneyBuddy n'utilise pas de mot de passe. Avec « Se connecter avec Apple », vous pouvez masquer votre véritable e-mail.</li>
   <li><b>Données de santé saisies :</b> hydratation, tension artérielle, fréquence cardiaque, sommeil, ordonnances, résultats d'analyses. Stockées sur l'appareil et synchronisées sur notre serveur.</li>
-  <li><b>Photos d'ordonnances / d'analyses :</b> uniquement si vous choisissez de les scanner avec l'IA.</li>
+  <li><b>Photos d'ordonnances / d'analyses :</b> uniquement si vous choisissez de les scanner avec l'IA ; elles sont envoyées au service d'IA pour être lues et ne sont pas conservées.</li>
 </ul>
 <h2>Sous-traitants</h2>
 <ul>
-  <li><b>Appwrite Cloud</b> (serveurs à Francfort, Allemagne) : compte, données synchronisées et photos envoyées.</li>
-  <li><b>API Google Gemini</b> : reçoit les photos scannées pour en extraire les médicaments ou les valeurs d'analyse. L'application demande votre accord avant le premier envoi.</li>
+  <li><b>Google Firebase</b> (Authentication et Cloud Firestore, serveurs à Montréal, Canada) : compte et données synchronisées.</li>
+  <li><b>Google Gemini via Google Cloud</b> (par Firebase AI Logic) : reçoit les photos scannées pour en extraire les médicaments ou les valeurs d'analyse. KidneyBuddy ne conserve pas ces photos. Selon les conditions de Google Cloud, Google ne les traite que pour renvoyer le résultat et ne les utilise pas pour entraîner ses modèles d'IA. L'application demande votre accord avant le premier scan.</li>
 </ul>
+<h2>Sécurité et entraînement de l'IA</h2>
+<p>Vos données sont chiffrées en transit et au repos, et seul votre compte connecté peut accéder à vos données synchronisées. Ni nous ni nos sous-traitants n'utilisons vos données — dossiers de santé ou photos scannées — pour entraîner des modèles d'IA, ni pour nous ni pour qui que ce soit.</p>
 <p>Nous ne vendons pas de données, n'affichons pas de publicité et ne vous suivons pas sur d'autres apps ou sites.</p>
 <h2>Conservation et suppression</h2>
-<p>Les données sont conservées jusqu'à leur suppression. Vous pouvez supprimer votre compte dans l'app (Réglages → Compte → Supprimer le compte) : le compte, toutes les données synchronisées et les photos sont définitivement effacés du serveur, ainsi que les données de l'appareil.</p>
+<p>Les données sont conservées jusqu'à leur suppression. Vous pouvez supprimer votre compte dans l'app (Réglages → Compte → Supprimer le compte) : le compte et toutes les données synchronisées sont définitivement effacés du serveur, ainsi que les données de l'appareil.</p>
 <h2>Avertissement médical</h2>
 <p>KidneyBuddy ne remplace pas un avis médical. Les résultats extraits par l'IA peuvent être erronés ; vérifiez-les toujours avec votre médecin.</p>
 <h2>Contact</h2>
+<p><a href="mailto:chinhtran52@icloud.com">chinhtran52@icloud.com</a></p>
+</section>
+<hr>
+
+<section id="zh">
+<h1>隐私政策 – KidneyBuddy</h1>
+<p>更新日期：2026 年 11 月 8 日</p>
+<h2>我们存储的数据</h2>
+<ul>
+  <li><b>账户：</b>邮箱以及通过 Apple 或 Google 登录的信息，用于登录和同步。KidneyBuddy 不使用密码。使用“通过 Apple 登录”时，你可以隐藏真实邮箱。</li>
+  <li><b>你输入的健康数据：</b>饮水量、血压、心率、睡眠、处方、化验结果。数据保存在你的设备上，并同步到我们的服务器，以便在多台设备上使用。</li>
+  <li><b>处方 / 化验单照片：</b>仅在你选择用 AI 扫描时使用；照片会发送给 AI 服务读取，不会被保存。</li>
+</ul>
+<h2>处理数据的第三方</h2>
+<ul>
+  <li><b>Google Firebase</b>（Authentication 和 Cloud Firestore，服务器位于加拿大蒙特利尔）：存储你的账户和同步数据。</li>
+  <li><b>通过 Google Cloud（经由 Firebase AI Logic）使用的 Google Gemini</b>：接收你扫描的照片，以提取药物或化验数值。KidneyBuddy 不保存这些照片。根据 Google Cloud 的条款，Google 仅为返回结果而处理这些照片，不会用它们训练其 AI 模型。首次扫描前，应用会征求你的同意。</li>
+</ul>
+<h2>安全与 AI 训练</h2>
+<p>你的数据在传输和存储时均经过加密，只有你登录的账户才能访问你的同步数据。我们和我们的服务提供商都不会使用你的数据（健康记录或扫描的照片）来训练 AI 模型，无论是为我们还是为任何其他方。</p>
+<p>我们不出售数据、不展示广告，也不会在其他应用或网站上追踪你。</p>
+<h2>保留与删除</h2>
+<p>数据会一直保留，直到你将其删除。你可以在应用中删除账户（设置 → 账户 → 删除账户）。此操作会从我们的服务器上永久删除你的账户和所有同步数据，并清除你设备上的数据。</p>
+<h2>医疗免责声明</h2>
+<p>KidneyBuddy 不能代替医疗建议。AI 提取的结果可能有误，请务必与医生核对。</p>
+<h2>联系方式</h2>
+<p><a href="mailto:chinhtran52@icloud.com">chinhtran52@icloud.com</a></p>
+</section>
+<hr>
+
+<section id="es">
+<h1>Política de privacidad – KidneyBuddy</h1>
+<p>Actualizada: 8 de noviembre de 2026</p>
+<h2>Datos que guardamos</h2>
+<ul>
+  <li><b>Cuenta:</b> correo electrónico e inicio de sesión con Apple o Google, para iniciar sesión y sincronizar. KidneyBuddy no usa contraseñas. Con «Iniciar sesión con Apple» puedes ocultar tu correo real.</li>
+  <li><b>Datos de salud que introduces:</b> ingesta de agua, presión arterial, frecuencia cardiaca, sueño, recetas y resultados de análisis. Se guardan en tu dispositivo y se sincronizan con nuestro servidor para que puedas usar varios dispositivos.</li>
+  <li><b>Fotos de recetas / análisis:</b> solo si eliges escanearlas con IA; se envían al servicio de IA para leerlas y no se guardan.</li>
+</ul>
+<h2>Terceros que tratan los datos</h2>
+<ul>
+  <li><b>Google Firebase</b> (Authentication y Cloud Firestore, servidores en Montreal, Canadá): guarda tu cuenta y los datos sincronizados.</li>
+  <li><b>Google Gemini a través de Google Cloud</b> (mediante Firebase AI Logic): recibe las fotos que escaneas para extraer medicamentos o valores de análisis. KidneyBuddy no guarda estas fotos. Según las condiciones de Google Cloud, Google solo las procesa para devolver el resultado y no las usa para entrenar sus modelos de IA. La app te pide tu consentimiento antes del primer escaneo.</li>
+</ul>
+<h2>Seguridad y entrenamiento de IA</h2>
+<p>Tus datos se cifran en tránsito y en reposo, y solo tu cuenta con sesión iniciada puede acceder a tus datos sincronizados. Ni nosotros ni nuestros proveedores usamos tus datos —registros de salud o fotos escaneadas— para entrenar modelos de IA, ni para nosotros ni para nadie.</p>
+<p>No vendemos datos, no mostramos anuncios ni te rastreamos en otras apps o sitios web.</p>
+<h2>Conservación y eliminación</h2>
+<p>Los datos se conservan hasta que los eliminas. Puedes eliminar tu cuenta en la app (Ajustes → Cuenta → Eliminar cuenta). Esto elimina de forma permanente tu cuenta y todos los datos sincronizados de nuestro servidor, y borra los datos de tu dispositivo.</p>
+<h2>Aviso médico</h2>
+<p>KidneyBuddy no sustituye el consejo médico. Los resultados extraídos por la IA pueden ser incorrectos; compruébalos siempre con tu médico.</p>
+<h2>Contacto</h2>
 <p><a href="mailto:chinhtran52@icloud.com">chinhtran52@icloud.com</a></p>
 </section>
 </body>
